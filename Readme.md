@@ -1,8 +1,10 @@
 # Graph Cut
 
-This is an implementation of the classical graph cut algorithm. The calculation of max flow is also implemented by myself, using the Ford Fulkerson algorithm. Although the results obtained are comparable to others, the running time has yet to be optimized. A picture of about 200*200 pixels takes 1 to 5 minutes to calculate, and most of the time is consumed in calculating the max flow. 
+This is an implementation of the classical graph cut algorithm. The calculation of max flow is also implemented by myself, using the Ford Fulkerson algorithm. Although the results obtained are comparable to others, the running time has yet to be optimized. A picture of about 200*200 pixels takes about 1 minutes to calculate, and most of the time is consumed in calculating the max flow. 
 
 ### Usage 
+
+In the x64 folder, there are two executable files, through them, you can run the program directly (require OpenCV DLL file in your system path).
 
 In the source code folder, there is a .txt file named "img_name.txt". Type the name of image you want to test and save the file. Run the program.
 
@@ -13,6 +15,8 @@ If you have finished the labeling job, please press the space key to run the gra
 When new windows pops up, the graph cut is completed. Press "s" to store the output images.  
 
 Press 'Esc' key to exit the program.
+
+**IMPORTANT:** Please use release mode !
 
 ### Compile
 

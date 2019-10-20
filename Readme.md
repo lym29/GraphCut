@@ -12,6 +12,8 @@ If you have finished the labeling job, please press the space key to run the gra
 
 When new windows pops up, the graph cut is completed. Press "s" to store the output images.  
 
+Press 'Esc' key to exit the program.
+
 ### Compile
 
 **IDE**: Visual Studio 2019

@@ -4,7 +4,7 @@ This is an implementation of the classical graph cut algorithm. The calculation 
 
 ### Usage 
 
-In the x64 folder, there are two executable files, through them, you can run the program directly (require OpenCV DLL file in your system path).
+In the GraphCut folder, there is an executable file, through it, you can run the program directly (require OpenCV DLL file in your system path).
 
 In the source code folder, there is a .txt file named "img_name.txt". Type the name of image you want to test and save the file. Run the program.
 
